@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFramework>net481</TargetFramework>
+	<OutputType>WinExe</OutputType>
+	<RootNamespace>WindEditor</RootNamespace>
+	<AssemblyName>Winditor</AssemblyName>
+    <UseWindowsForms>true</UseWindowsForms>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>resources\icons\baton.ico</ApplicationIcon>
+	<GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<Content Include="dolphin\**">
+	  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	</Content>
+	<Content Include="resources\**">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Extended.Wpf.Toolkit" />
+	<PackageReference Include="Microsoft-WindowsAPICodePack-Shell" />
+	<PackageReference Include="NodeNetworkToolkit" />
+	<PackageReference Include="OpenTK.GLControl" />
+	<PackageReference Include="SharpFont" />
+	<PackageReference Include="SharpFont.Dependencies" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<ProjectReference Include="..\JStudio\JStudio.csproj" />
+	<ProjectReference Include="..\SuperBMDLib\SuperBMDLib.csproj" />
+  </ItemGroup>
+
+</Project>

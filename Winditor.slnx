@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="src/GameFormatReader/GameFormatReader.csproj" />
+  <Project Path="src/WArchiveTools/WArchiveTools.csproj" />
+  <Project Path="src/WCommon/WCommon.csproj" />
+  <Project Path="src/JStudio/JStudio.csproj" />
+  <Project Path="src/SuperBMDLib/SuperBMDLib.csproj" />
+  <Project Path="src/Editor/Editor.csproj" />
+</Solution>

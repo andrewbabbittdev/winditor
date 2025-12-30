@@ -1,0 +1,18 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <NoWarn>NU1507</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="AssimpNet" Version="4.1.0" />
+    <PackageVersion Include="Extended.Wpf.Toolkit" Version="5.0.0" />
+    <PackageVersion Include="Microsoft-WindowsAPICodePack-Shell" Version="1.1.5" />
+    <PackageVersion Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageVersion Include="NodeNetworkToolkit" Version="6.0.0" />
+    <PackageVersion Include="OpenTK" Version="3.3.3" />
+    <PackageVersion Include="OpenTK.GLControl" Version="3.3.3" />
+    <PackageVersion Include="SharpFont" Version="4.0.1" />
+    <PackageVersion Include="SharpFont.Dependencies" Version="2.6.0" />
+    <PackageVersion Include="System.Resources.Extensions" Version="10.0.1" />
+  </ItemGroup>
+</Project>

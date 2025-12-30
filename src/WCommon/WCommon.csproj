@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net481</TargetFramework>
+    <OutputType>Library</OutputType>
+    <RootNamespace>WindEditor</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" />
+    <PackageReference Include="OpenTK" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GameFormatReader\GameFormatReader.csproj" />
+  </ItemGroup>
+
+</Project>
