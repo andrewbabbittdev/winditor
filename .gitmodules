@@ -2,9 +2,6 @@
 	path = WArchive-Tools
 	url = https://github.com/LagoLunatic/WArchive-Tools.git
 	branch = master
-[submodule "JStudio"]
-	path = JStudio
-	url = https://github.com/LordNed/JStudio.git
 [submodule "SuperBMD"]
 	path = SuperBMD
 	url = https://github.com/LagoLunatic/SuperBMD.git
