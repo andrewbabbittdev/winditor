@@ -9,7 +9,3 @@
 	path = SuperBMD
 	url = https://github.com/LagoLunatic/SuperBMD.git
 	branch = master
-[submodule "GameFormatReader"]
-	path = GameFormatReader
-	url = https://github.com/LagoLunatic/GameFormatReader.git
-	branch = master
