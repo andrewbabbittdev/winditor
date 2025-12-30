@@ -1,4 +1,0 @@
-[submodule "SuperBMD"]
-	path = SuperBMD
-	url = https://github.com/LagoLunatic/SuperBMD.git
-	branch = master
